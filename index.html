@@ -1,0 +1,32 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Canciones aleatorias</title>
+<LINK media=screen href="estilos/pixeles.css" type=text/css 
+rel=stylesheet>
+<script type="text/javascript">
+
+var Quotation=new Array()
+Quotation[0] = "Everything - scrubb";
+Quotation[1] = "Smile - scrubb";
+Quotation[2] = "Wish - scrubb";
+Quotation[3] = "I love you 3000 - Jackson";
+Quotation[4] = "The ultracheee - arctic monkeys";
+
+var Q = Quotation.length;
+
+var whichQuotation=Math.round(Math.random()*(Q-1));
+
+function showQuotation() {
+document.write(Quotation[whichQuotation]);}
+</script>
+</head>
+
+<body bgcolor="#C59CF5">
+<center><H1>CANCIONES ALEATORIAS</H1></center>
+<br>
+<center><H2><script> type="text/javascript"> showQuotation(); </script></H2></center>  
+<center><img src="https://aprendelibvrefiles.blob.core.windows.net/aprendelibvre-container/course/image/31/iphone_04_p01d_xl.png"></center>
+
+</body>
+</html>
